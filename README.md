@@ -1,0 +1,1 @@
+An AHK script I use to optimize my keyboard use during development.
