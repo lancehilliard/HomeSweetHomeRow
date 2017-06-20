@@ -34,6 +34,7 @@ Run regedit /s C:\Users\mlh01\Documents\fix.reg,,Hide
 Run, %comspec% /c "taskkill /F /IM Receiver.exe /T",,Hide
 Process,Close,ConfigurationWizard.exe
 Process,Close,Receiver.exe
+WinHide ahk_class wcl_manager1 ; hide Jabber top-center popup tool window
 Return
 
 
