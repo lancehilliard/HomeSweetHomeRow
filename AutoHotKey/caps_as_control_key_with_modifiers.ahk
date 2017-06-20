@@ -6,6 +6,7 @@
 ;Allows for the script to be reloaded everytime it's saved
 SetTimer,UPDATEDSCRIPT,1000
 SetTimer, RegularMaintenance, 60000
+SetTimer, RegularMaintenance, -1
 
 UPDATEDSCRIPT:
 FileGetAttrib,attribs,%A_ScriptFullPath%
