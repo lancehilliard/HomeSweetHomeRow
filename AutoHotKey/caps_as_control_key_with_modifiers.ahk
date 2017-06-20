@@ -30,6 +30,7 @@ FileDelete, C:\Users\Public\Desktop\*.lnk
 ; Set lid close to Do Nothing for both AC and DC -- http://superuser.com/a/874858/6926
 Run powercfg "-SETACVALUEINDEX 381b4222-f694-41f0-9685-ff5bb260df2e 4f971e89-eebd-4455-a8de-9e59040e7347 5ca83367-6e45-459f-a27b-476b1d01c936 0",,Hide
 Run powercfg "-SETDCVALUEINDEX 381b4222-f694-41f0-9685-ff5bb260df2e 4f971e89-eebd-4455-a8de-9e59040e7347 5ca83367-6e45-459f-a27b-476b1d01c936 0",,Hide
+Run regedit /s C:\Users\mlh01\Documents\fix.reg,,Hide
 Run, %comspec% /c "taskkill /F /IM Receiver.exe /T",,Hide
 Return
 
