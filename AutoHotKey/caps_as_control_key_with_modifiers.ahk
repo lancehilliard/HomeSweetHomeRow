@@ -1,3 +1,9 @@
+; https://www.google.com/search?q=shell32.dll+icon+numbers
+; Menu, Tray, Icon, %windir%\system32\wiashext.dll, 18 ; msdos
+; Menu, Tray, Icon, %windir%\system32\pifmgr.dll, 7 ; trumpet
+; Menu, Tray, Icon, %windir%\system32\netshell.dll, 29 ; cloud
+Menu, Tray, Icon, %windir%\system32\compstui.dll, 84 ; rotaryphone
+
 ; Control key  ^
 ; Alt key      !
 ; Shift key    +
