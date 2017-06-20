@@ -257,3 +257,5 @@ TrayTip , Turn Off Monitor, Turning off monitor in 1 minute..., 60, 1
 Sleep, 60000 ; so this very keystroke doesn't wake monitor back up
 SendMessage,0x112,0xF170,2,,Program Manager
 return
+;Win+A = Toggle AlwaysOnTop state of the active window
+#A::WinSet, AlwaysOnTop, Toggle, A
